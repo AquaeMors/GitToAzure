@@ -4,6 +4,7 @@ To access an Azure DevOps repository through git, Git for Windows must be downlo
 Below is the link to the official git webpage. Find the link for **The Lastest Version for Git** on the site and press the blue "Click to Download" link. Make sure it is the correct bit version for your system (example: 64-bit). The latest version as of the 27th of June is Version 2.45.2. 
 
 Link to Git for Windows -> ->     https://git-scm.com/download/win  <- <-
+
 Launch the Git Installer and click **Next** past the *GNU General Public License*. Click Next again and when you are prompted with **Choosing the default Editor used by Git**, if VS Code is installed on your host, pick this option, otherwise leave it to default. 
 
 From here on out, unless you want to personalize your Git settings and know what are you doing, go ahead and leave the defaults until you come to the **Install** button. Install Git and launch the software [Git Bash]
@@ -22,4 +23,4 @@ Once back at your command terminal, enter `git clone [copied https link from azu
 
 Change Directories, `cd [repository name]`, and execute `git fetch` so you will not have to authenticate everytime you reach out to your Azure DevOps site. 
 
-To update to the latest version of the repository, execute `git pull` to pull the updates files from Azure DevOps.
+To update to the latest version of the repository, execute `git pull` to pull the updated files from Azure DevOps.
