@@ -7,6 +7,15 @@ Link to Git for Windows -> ->     https://git-scm.com/download/win  <- <-
 
 
 Once Git is downloaded, open up the software and you should have something that looks like this:
+!(/open_git.png?raw=true "Opening Up Git")
 
-Create a new directory for your repository to be stored in by using `mkdir [directory name]`:
+Create a new directory for your repository to be stored in by using `mkdir [directory name]` and that Change Directories by using `cd [directory name]`:
+!(/mkdir_cd.png?raw=true "Creating and Changing Dir")
 
+Once you have completed these steps, you will want to open up your companys' Azure DevOps website page. Once on the home page, on the left side of the page, a menu is displayed. Locate the **REPOS** menu option and click on it.
+!(/azure_menu.png?raw=true "Azure Menu")
+
+One of the first boxes in the REPOS sections will say "**Clone to your computer**". A link will be given, make sure to copy this https link. 
+Once back at your command terminal, enter `git clone [copied https link from azure]`. This will clone the Azure repository into your new git directory we made earlier. You can check to see if it was successful by typing `ls` into your terminal and see that it has been cloned over to your computer.
+
+Change Directories, `cd [repository name]`, and execute `git fetch` so you will not have to authenticate everytime you reach out to your Azure DevOps site. 
