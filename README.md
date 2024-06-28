@@ -19,3 +19,5 @@ One of the first boxes in the REPOS sections will say "**Clone to your computer*
 Once back at your command terminal, enter `git clone [copied https link from azure]`. This will clone the Azure repository into your new git directory we made earlier. You can check to see if it was successful by typing `ls` into your terminal and see that it has been cloned over to your computer.
 
 Change Directories, `cd [repository name]`, and execute `git fetch` so you will not have to authenticate everytime you reach out to your Azure DevOps site. 
+
+To update to the latest version of the repository, execute `git pull` to pull the updates files from Azure DevOps.
