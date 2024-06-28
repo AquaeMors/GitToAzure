@@ -6,3 +6,7 @@ Below is the link to the official git webpage. Find the link for **The Lastest V
 Link to Git for Windows -> ->     https://git-scm.com/download/win  <- <-
 
 
+Once Git is downloaded, open up the software and you should have something that looks like this:
+
+Create a new directory for your repository to be stored in by using `mkdir [directory name]`:
+
