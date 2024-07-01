@@ -24,3 +24,12 @@ Once back at your command terminal, enter `git clone [copied https link from azu
 Change Directories, `cd [repository name]`, and execute `git fetch` so you will not have to authenticate everytime you reach out to your Azure DevOps site. 
 
 To update to the latest version of the repository, execute `git pull` to pull the updated files from Azure DevOps.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Accessing Azure through Visual Studio Code
+
+In order to access the Azure repository, Visual Studio Code must be downloaded on your machine. It can be found through Visual Studio's website: https://code.visualstudio.com/download
+
+Once VS Code is up and running, log into your Azure DevOps account and locate the shared site. Navigate to your **Repos** tab on the website and click the gray *Clone in VS Code* button. Once pressed, the browser will ask you to open VS Code. When VS Code launches, it will prompt you to make a new file. This is where all files pulled and created for the repository will be stored locally.
+
+When this is all done, locate the **Terminal** button (next to the help tab) on the top left of VS Code and open click on New Terminal. 
