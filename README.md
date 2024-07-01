@@ -33,3 +33,14 @@ In order to access the Azure repository, Visual Studio Code must be downloaded o
 Once VS Code is up and running, log into your Azure DevOps account and locate the shared site. Navigate to your **Repos** tab on the website and click the gray *Clone in VS Code* button. Once pressed, the browser will ask you to open VS Code. When VS Code launches, it will prompt you to make a new file. This is where all files pulled and created for the repository will be stored locally.
 
 When this is all done, locate the **Terminal** button (next to the help tab) on the top left of VS Code and open click on New Terminal. 
+
+NOTE: If this is your first time cloning the repository, you will need to configure your username and email. By default, your username and email are the same and you can check what it is by opening your profile in Azure and finding your email.
+
+In the terminal type these commands to configure your user and email:
+`git config user.name "JohnSmith@gmail.com"`
+`git config user.email "JohnSmith@gmail.com"`
+
+**COMMITING AND PULLING**
+Any changes you make through VS Code on the repository will need to be *committed* to the master branch. To do this, save all file and press the Source Control tab on the far left side of your application:
+![3](/SourceControl.png?raw=true "Azure Menu")
+Hover over your changed/created files and click the "+" button. This Stages the Changes and gets them ready to commit. Add any comments you might need in the Message section above the **✓Commit** button, then press commit.
