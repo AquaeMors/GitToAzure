@@ -42,6 +42,10 @@ In the terminal type these commands to configure your user and email:
 
 **COMMITING AND PULLING**
 Any changes you make through VS Code on the repository will need to be *committed* to the master branch. To do this, save all file and press the Source Control tab on the far left side of your application:
-![4](/SourceControl.PNG?raw=true "Azure Menu")
+![4](/SourceControl.PNG?raw=true "VS Code menu")
 
-Hover over your changed/created files and click the "+" button. This Stages the Changes and gets them ready to commit. Add any comments you might need in the Message section above the **✓Commit** button, then press commit.
+Hover over your changed/created files and click the "+" button. This Stages the Changes and gets them ready to commit. Add any comments you might need in the Message section above the **✓Commit** button, then press commit. Now we need to *Push* the changes to the repository. To do this, either press **Sync Changes** or, above the sync button, press on the three dot drop down and select "Push":
+![5](/push.PNG?raw=true "Pushing")
+
+The **Sync Changes** option pushes your changes but then also **Pulls** any other new changes that are in the repository, so if you would like to just push your changes and not pull any new ones, select the push option from the drop down.
+
